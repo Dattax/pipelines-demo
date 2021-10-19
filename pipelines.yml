@@ -14,7 +14,7 @@ resources:
         include: master
 
 pipelines:
-  - name: my_first_pipeline
+  - name: my_first_pipeline_demo
     steps:
       - name: p1_s1
         type: Bash
@@ -62,7 +62,7 @@ pipelines:
             # Utility functions documentation: https://www.jfrog.com/confluence/display/JFROG/Pipelines+Utility+Functions
             - write_output myPropertyBag commitSha=$commitSha runID=$current_runid
 
-  - name: my_second_pipeline
+  - name: my_second_pipeline_demo
     steps:
       - name: p2_s1
         type: Bash
