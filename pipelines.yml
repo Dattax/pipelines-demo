@@ -13,12 +13,6 @@ resources:
         # Specifies which branches will trigger dependent steps
         include: master
 
-  - name: myPropertyBag
-    type: PropertyBag
-    configuration:
-      commitSha: 1
-      runID: 1
-
 pipelines:
   - name: my_first_pipeline
     steps:
