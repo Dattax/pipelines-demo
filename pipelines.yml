@@ -2,8 +2,8 @@ resources:
   - name: be_gitRepo
     type: GitRepo
     configuration:
-      path: mjmckay/java-backend
-      gitProvider: mjmckay_github
+      path: dattax/pipelines-demo
+      gitProvider: dattax
 
   - name: appl_build_info
     type: BuildInfo
